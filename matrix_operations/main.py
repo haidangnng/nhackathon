@@ -60,6 +60,8 @@ def execute_operation(matrices, operation):
     print(operation)
     for i in stack[0]:
         print(" ".join(str(x) for x in i.tolist()))
+    print()
+
     return
 
 
