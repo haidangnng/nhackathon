@@ -28,7 +28,7 @@ def check_palindrome(string):
             continue
 
         if left_char != right_char:
-            print("No, -1")
+            print("NO, -1")
             return
         else:
             dict[left_char] = dict.get(left_char, 0) + 1
@@ -36,7 +36,7 @@ def check_palindrome(string):
             right -= 1
             continue
 
-    print(f"Yes, {dict.__len__()}")
+    print(f"YES, {dict.__len__()}")
     return
 
 
