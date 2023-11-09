@@ -18,7 +18,6 @@ def check_palindrome(string):
     while left <= right:
         left_char = parse_char(string[left])
         right_char = parse_char(string[right])
-        # if left == right:
 
         if not left_char:
             left += 1
