@@ -37,7 +37,7 @@ def check_palindrome(string):
             right -= 1
             continue
 
-    print(f"YeS, {dict.__len__()}")
+    print(f"Yes, {dict.__len__()}")
     return
 
 
