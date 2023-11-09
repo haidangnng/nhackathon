@@ -105,7 +105,5 @@ def get_parameters(file_input):
             current_matrix = ""
         line_index += 1
 
-    print("Initializing done")
-
 
 get_parameters(input)
