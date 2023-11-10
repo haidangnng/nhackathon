@@ -34,7 +34,7 @@ def build_deck(sym_len):
 
     print(sym_len)
     for index_card, card in enumerate(cards):
-        print(f"{index_card + 1} - {card}")
+        print(f"{index_card + 1} - [{', '.join(str(x) for x in card)}]")
         if index_card == len(cards) - 1:
             print()
 

@@ -29,7 +29,8 @@ def bfs(maze, start):
     visited = set()
     queue = [(start, ["S"])]
     while queue:
-        (cur_x, cur_y), path = queue.pop()
+        (cur_x, cur_y), path = queue.pop(0)
+
         visited.add((cur_x, cur_y))
 
         for dir in directions:
