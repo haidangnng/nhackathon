@@ -41,7 +41,7 @@ def bfs(maze, start):
             next_cell = maze[next_y][next_x]
             if next_cell == "G":
                 path = path + [dir, "G"]
-                return ", ".join(path)
+                return " ".join(path)
             if next_cell == "." and (next_x, next_y) not in visited:
                 visited.add((next_x, next_y))
                 queue.append(((next_x, next_y), path + [dir]))
